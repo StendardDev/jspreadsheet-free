@@ -36,7 +36,7 @@ requirements. It is a complete solution for web data management. Create amazing 
 ## Installation
 
 ### As node package
-`npm install jspreadsheet-ce`
+`npm install jspreadsheet-free`
 
 ### As standalone library/js plugin
 [Download ZIP](https://github.com/jspreadsheet/ce/archive/master.zip)
