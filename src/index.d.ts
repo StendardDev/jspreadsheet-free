@@ -2127,6 +2127,8 @@ declare namespace jspreadsheet {
      * This method only runs if the {@link JSpreadsheetOptions.filters} property is true.
      * @param columnId - Column index.
      */
+    setFilters: (columnId: number, data: string) => void;
+
     openFilter: (columnId: number) => void;
 
     /**

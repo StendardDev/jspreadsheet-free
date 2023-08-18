@@ -1,13 +1,13 @@
 {
-    "name": "jspreadsheet-ce",
+    "name": "jspreadsheet-free",
     "title": "The Javascript Spreadsheet",
     "description": "Jspreadsheet is a lightweight, vanilla javascript plugin to create amazing web-based interactive data grids with spreadsheet like controls compatible with Excel, Google Spreadsheets and any other spreadsheet software.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jspreadsheet/ce.git"
+        "url": "https://github.com/StendardDev/jspreadsheet-free.git"
     },
     "author": {
-        "name": "Contact <contact@jspreadsheet.com>"
+        "name": "Contact <dev@stendard.com>"
     },
     "keywords": [
         "spreadsheet",
@@ -25,8 +25,8 @@
         "spreadsheet"
     ],
     "dependencies": {
-        "jsuites": "^5.0.17",
-        "@jspreadsheet/formula": "^2.0.2"
+        "@jspreadsheet/formula": "^2.0.2",
+        "jsuites": "^5.0.17"
     },
     "devDependencies": {
         "c8": "^7.13.0",
@@ -37,7 +37,7 @@
         "jsdom-global": "^3.0.2",
         "mocha": "^8.4.0",
         "webpack": "^5.70.0",
-        "webpack-cli": "^4.9.2",
+        "webpack-cli": "^4.10.0",
         "webpack-dev-server": "^4.7.2",
         "webpack-sources": "^3.2.3"
     },

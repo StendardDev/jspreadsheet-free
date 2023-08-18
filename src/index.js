@@ -1840,6 +1840,19 @@ if (! formula && typeof(require) === 'function') {
         }
 
         /**
+         *  Set the column filter
+         */
+        obj.setFilters = function(columnId, data) {
+            obj.filters[columnId] = data;
+            obj.filter.children[columnId + 1].innerHTML = data;
+            obj.filter.children[columnId + 1].style.paddingLeft = '';
+            obj.filter.children[columnId + 1].style.paddingRight = '';
+            obj.filter.children[columnId + 1].style.overflow = '';
+            obj.closeFilter(columnId);
+            obj.refreshSelection();
+        }
+
+        /**
          * Open the column filter
          */
         obj.openFilter = function(columnId) {
